@@ -6,7 +6,8 @@ public class Show {
 	f.fly();
 	}
 	
-	public static void readyShow(Flyer f) {
-		f.repairWing();
+	public static void readyShow() {
+		//f.repairWing();
+		Flyer.repairWing();
 	}
 }

@@ -12,4 +12,11 @@ public class Superman extends Person implements Flyer {
 	public void fly() {
 		System.out.println("망토를 휘날리며 난다...");
 	}
+	
+	/*
+	@Override
+	public void repairWing() {
+		System.out.println(">>>망토를 수리합니다.");
+	}
+	*/
 }

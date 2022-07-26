@@ -15,7 +15,8 @@ public class Test {
 		
 		for(Flyer f: allFlyer)
 		{
-			Show.readyShow(f);
+			//Show.readyShow(f); // Show class의 readyShow에 Flyer f를 파라미터로 넣을 경우
+			Show.readyShow();
 			Show.airShow(f);
 		}
 		/*
